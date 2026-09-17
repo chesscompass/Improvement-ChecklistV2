@@ -1,0 +1,1 @@
+const form=document.getElementById("checklist-form");const success=document.getElementById("form-success");form.addEventListener("submit",e=>{e.preventDefault();success.hidden=false;success.scrollIntoView({behavior:"smooth",block:"nearest"});});
